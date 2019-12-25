@@ -4,10 +4,10 @@
 def fizzbuzz(arg)
   if arg%15 == 0
     "FizzBuzz"
-    elsif arg%5 == 0 
-    puts "Buzz"
-    elsif arg%3 == 0 
-    puts "Fizz"
+  elsif arg%5 == 0 
+    "Buzz"
+  elsif arg%3 == 0 
+    "Fizz"
   else
     return
   end
