@@ -3,7 +3,7 @@
 
 def fizzbuzz(arg)
   if arg%15 == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
     elsif arg%5 == 0 
     puts "Buzz"
     elsif arg%3 == 0 
